@@ -142,3 +142,6 @@
 ## Day 25: Azure Interview Preparion
 - Review of Key Concepts
 - Interviews Questions and Practice Sessions
+
+
+P Trinadh
