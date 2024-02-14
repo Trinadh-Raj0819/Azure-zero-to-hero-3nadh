@@ -48,26 +48,28 @@
 - Application Security Groups(ASGs)
 
 ## Day 6: Advanced Networking Services
-- Introduction to Virtual Network Peering and VNet Gateway
-- Introduction to VPN Gateway
-- Introduction to Azure Load Balancer and Azure App Gateway
-- Introduction to Content Delivery Network(CDN) in Azure
+- Azure App Gateway & WAF
+- Azure Load Balancer
+- Azure DNS
+- Azure Firewall
+- Virtual Network Peering and VNet Gateway
+- VPN Gateway
+  
+## Day 7: Deploying an application behind Firewall on Azure - (PROJECT 1)
+- Practical Hands on video that explains
+- How to set up the networking
+- How to deploy the applcition on Azure VMs with Networking and use bastion.
+- Overview of the setup and troubleshooting.
 
-## Day 7: Azure Interview Questions (Compute and Networking)
+## Day 8: Azure Interview Questions (Compute and Networking)
 - Interview Questions on the topics covered till Day 6
 - Cloud computing concepts
 - Azure Basics
 - Azure Networking
 
-## Day 8: Deploying a two tier application on Azure - (PROJECT 1)
-- Practical Hands on video that explains
-- How to set up the networking for two tier app
-- How to deploy the two tier applcition on Azure VMs with Networking.
-- Overview of the setup and troubleshooting.
-
 ## Day 9: Azure Storage Services
 - Types of Azure Storage Services
-- Use Cases and Demonstrations
+- Use Cases
 
 ## Day 10: Command Line Interface for Azure
 - Azure CLI Deep Dive
@@ -76,34 +78,45 @@
 
 ## Day 11: Azure Resource Manager
 - Azure Resource Manager and Azure Templates Deep Dive
+- Comparison with Bicep
+- Comparison with Azure CLI
+- Comparison with Terraform
 
-## Day 12: Azure Authentication and Identity Management
+## Day 12: Azure Identity and Access Management (IAM)
 - Authentication Services in Azure
 - Identity Access Management (IAM)
 - Implementing RBAC
 - Best Practices for RBAC
 
-## Day 13: Azure Cloud Watch and Monitoring Services
-- Monitoring Overview
-- Setting Up Monitoring in Azure
-
-## Day 14: Introduction to Azure DevOps
+## Day 13: Introduction to Azure DevOps
 - Overview of Azure DevOps
 - Introduction to the Azure DevOps services
 - Setting Up Projects and Repositories
 
-## Day 15: Azure DevOps - CI Setup - (PROJECT 2)
+## Day 14: Azure DevOps - CI Setup - (PROJECT 2)
 - Implementing Continuous Integration (CI)
 
-## Day 16: Azure DevOps - CD Setup - (PROJECT 3)
+- A front-end web app in Python which lets you vote between two options
+- A Redis which collects new votes
+- A .NET worker which consumes votes and stores them
+- A Postgres database backed by a Docker volume
+- A Node.js web app which shows the results of the voting in real time
+
+<img width="813" alt="Screenshot 2024-02-09 at 5 20 01 PM" src="https://github.com/iam-veeramalla/Azure-zero-to-hero/assets/43399466/ad4dbb37-82f4-4663-9bcb-e919f0bb101b">
+
+## Day 15: Azure DevOps - CD Setup - (PROJECT 3)
 - Implementing Continuous Deployment (CD)
-
-## Day 17: Azure Kubernetes Services(AKS Deep Dive) - (PROJECT 4)
+- Using AKS for CD
+- Creating AKS cluster on Azure
+- Configuring Virtual Machine Scale Sets as Node pools in AKS
 - Hands on sessions on AKS
-- Deploying applciation to AKS
-- Expose the application with Ingress configuration on AKS
+- End to End CI/CD Demonstration
 
-## Day 18: Deploying a Three Tier architecture E-commerce (8 Services, 2 Databases) on AKS - (PROJECT 5)
+## Day 16: Azure Kubernetes Services(AKS Deep Dive) 
+- AKS Deep Dive
+- Understanding AKS vs Self managed Kubernetes clusters
+
+## Day 17: Deploying a Three Tier architecture E-commerce (8 Services, 2 Databases) on AKS - (PROJECT 4)
 - Understand what is three tier architecuture
 - How different services connect to each other in three tier architecture
 - How to create Dockerfiles for each service ?
@@ -111,9 +124,13 @@
 - How does Ingress controller work ?
 - Expose the three tier application to end users.
 
-## Day 19: Azure DevOps Interview Questions
+## Day 18: Azure DevOps Interview Questions
 - Beginner level Azure DevOps Interview Q&A
 - Advanced level Azure DevOps Interview Q&A
+
+## Day 19: Azure Cloud Watch(Monitor) and Monitoring Services
+- Monitoring Overview
+- Setting Up Monitoring in Azure
 
 ## Day 20: Azure Key Vault
 - Secrets Management with Key Vault
@@ -123,15 +140,15 @@
 - Understanding Azure Serverless Services
 - Going Serverless with Azure
 
-## Day 22: Cloud Management Strategies for Azure - (PROJECT 6)
+## Day 22: Cloud Management Strategies for Azure - (PROJECT 5)
 - Cost Optimization
 - Scaling and Performance Optimization
 
-## Day 23: Complicance on Azure  - (PROJECT 7)
+## Day 23: Complicance on Azure  - (PROJECT 6)
 - Azure Resource Tags
 - Using the Serverless Functions to implement the compliance requirements on Azure
 
-## Day 24: Manage Azure Resources using Terraform - (PROJECT 8)
+## Day 24: Manage Azure Resources using Terraform - (PROJECT 7)
 - How to connect Azure with Terraform
 - How to create resources on Azure with Terraform
 - State file management of Terraform in Azure
